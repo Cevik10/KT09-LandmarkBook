@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">LandmarkBookKt</string>
+
+    <string name="eiffel">This metal tower with three floors stands in the city centre of Paris. It was built for the 1889 World Fair (Universal Expo) to celebrate the 100th anniversary of the French Revolution.
+The 324metres/1062ft high Eiffel Tower was constructed by Auguste Eiffel and a team of engineers. If you would like to take the steps up to the tower viewing platform on the second floor, there are 704 steps to climb, but luckily there are also lifts in each of the leg up to the second floor.</string>
+
+    <string name="giza">The Great Pyramid of Giza near Cairo is one of the Seven Wonders of the Ancient World and the only one of these ancient world wonders which still exists. The pyramids are made of stone and bricks and stand near Cairo which is the capital of Egypt.
+The Egyptian pyramids were built during a time when there was only manual labour and no machine lifting equipment available. The pyramids were build to house the bodies of the pharaoh who ruled in ancient Egypt. Next to the Giza pyramids there is the Sphinx, the famous monument of a lion body with a pharaoh’s head.</string>
+
+    <string name="greatWall">The Great Wall is one of the seven wonders of the world. It runs in sections over a very long distance across China.
+The wall is also referred to as ‘Long Wall’ as it is over 21,196 km/13,171 miles long. It was built with stones, bricks and tiles, earth as well as of wooden material. The wall was completed in 1644, but it took more than 2,000 years to build.
+There are more than 20,000 watchtowers along the wall as it was built to protect the country against invasions from nomads and enemies and to make it easier to collect duty for goods that were transported along the Silk Road.</string>
+
+
+    <string name="kremlin">The Grand Kremlin Palace is part of the Kremlin complex and is located next to the Red Square and St Basil’s Cathedral in Russia’s capital city Moscow.
+The Kremlin is a fortress with enclosing walls and is built along the Moskva River. The name ‘Kremlin’ means ‘fortress within a city’. The more than 500-year-old Kremlin includes the wall with its 20 towers as well as four churches and five palaces within the walls.
+The Kremlin was once the residence of the Tzars. Today, it is where the Russian president resides. The Cathedral of Vasily the Blessed, usually refered to as Saint Basil’s Cathedral, is easily recognised due to its nine brightly coloured onion domes.</string>
+
+
+    <string name="machuPicchu">Machu Picchu which means ‘Old Mountain’ in the local Quechua language is a famous site in Peru. It is also referred to as The Lost City of the Incas.
+The ruins of the Lost City are located in the mountains, at more than 2,400 metres/8,000 feet above sea level. This ruin site has more than 200 different buildings and structures. The ruins were never discovered by the European conquistadors but only became known in 1911 when an American archeologist was led to the site by locals.</string>
+
+    <string name="opera">The Sydney Opera House, built in Australia’s biggest city, is famous for its roof’s architecture resembling shells or sails. The opera house was designed by Jørn Utzon from Denmark and it was built between 1959 and 1973.
+The roof is covered with more than 1 million roof tiles. These were manufactured in Sweden. The opera house has several performance halls and theatre and exhibition spaces.
+More than 40 shows are staged here every week. Every year, more than 8 million visitors visit this Australian landmark! Every evening the roof is lit up in a colourful spectacle. More info on the opera house.</string>
+
+    <string name="tajMahal">The Taj Mahal, which means crown of palaces in the Persian language, stands on the riverbanks of the Yamuna River in Agra in northern India.
+In 1632 the emperor, Shah Jahan instructed to build a tomb for his favorite wife, Mumtaz Mahal. The Taj Mahal houses the tomb of the wife as well as a mosque and a guesthouse.The Taj Mahal has been built with white marble and the finest material sourced from all over Asia. It is decorated with precious and semi-precious stones. Lines from the Quran are depicted on many walls. The main dome of the Taj Mahal is 35 metres/ 115ft. hight and the minarets are each 40 m/ 130ft. tall.</string>
+
+
+</resources>
