@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.LandmarkActivity"
-    android:background="#A0AEA3">
+    android:background="#A0AEA3"
+    tools:context=".ui.LandmarkActivity">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="230dp"
-        android:layout_height="209dp"
-        app:layout_constraintBottom_toTopOf="@+id/countryNameText"
+        android:layout_width="312dp"
+        android:layout_height="232dp"
+        android:layout_marginTop="43dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -20,26 +20,28 @@
     <TextView
         android:id="@+id/landmarkInfoText"
         android:layout_width="match_parent"
-        android:layout_height="221dp"
-        android:layout_marginStart="23dp"
-        android:layout_marginEnd="23dp"
-        android:layout_marginBottom="13dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="13dp"
         android:background="@drawable/custom_text_border"
+        android:fillViewport="true"
         android:padding="13dp"
+        android:scrollbars="vertical"
         android:text="TextView"
         android:textColor="@color/black"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/landmarkNameText" />
 
     <TextView
         android:id="@+id/countryNameText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="23dp"
-        android:layout_marginEnd="23dp"
-        android:layout_marginBottom="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="13dp"
         android:background="@drawable/custom_text_border"
         android:padding="7dp"
         android:text="Paris"
@@ -47,17 +49,17 @@
         android:textColor="@color/black"
         android:textSize="23sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/landmarkNameText"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <TextView
         android:id="@+id/landmarkNameText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="23dp"
-        android:layout_marginEnd="23dp"
-        android:layout_marginBottom="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="13dp"
         android:background="@drawable/custom_text_border"
         android:padding="7dp"
         android:text="Eiffel Tower"
@@ -65,7 +67,7 @@
         android:textColor="@color/black"
         android:textSize="23sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/landmarkInfoText"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/countryNameText" />
 </androidx.constraintlayout.widget.ConstraintLayout>
